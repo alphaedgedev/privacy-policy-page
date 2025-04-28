@@ -3,9 +3,320 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Static Page</title>
+  <title>Privacy Policy</title>
+  <style>
+    :root {
+      --primary-color: #5c6ac4;
+      --secondary-color: #b4e1fa;
+      --text-color: #212b36;
+      --light-text: #637381;
+      --background: #f9fafb;
+      --border-color: #dfe3e8;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 1.6;
+      color: var(--text-color);
+      background-color: var(--background);
+      padding: 0;
+      margin: 0;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    header {
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      padding: 1.5rem 0;
+      margin-bottom: 2rem;
+    }
+    
+    header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+    
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+    
+    nav ul li {
+      margin-left: 2rem;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: var(--light-text);
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+      color: var(--primary-color);
+    }
+    
+    .content {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      padding: 2rem;
+    }
+    
+    h1 {
+      font-size: 2rem;
+      color: var(--primary-color);
+      margin-bottom: 1.5rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+      color: var(--primary-color);
+      margin: 2rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+    
+    h3 {
+      font-size: 1.2rem;
+      color: var(--text-color);
+      margin: 1.5rem 0 0.75rem;
+    }
+    
+    p, ul, ol {
+      margin-bottom: 1rem;
+    }
+    
+    ul, ol {
+      padding-left: 1.5rem;
+    }
+    
+    li {
+      margin-bottom: 0.5rem;
+    }
+    
+    .highlight {
+      background-color: var(--secondary-color);
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 1.5rem 0;
+    }
+    
+    .updated-date {
+      font-style: italic;
+      color: var(--light-text);
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      color: var(--light-text);
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+    
+    .anchor-section {
+      scroll-margin-top: 2rem;
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        padding: 1rem;
+      }
+      
+      header .container {
+        flex-direction: column;
+      }
+      
+      nav ul {
+        margin-top: 1rem;
+      }
+      
+      nav ul li {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello World from GitHub Pages!</h1>
+  <header>
+    <div class="container">
+      <div class="logo">Alpha Edge</div>
+    </div>
+  </header>
+  
+  <div class="container">
+    <div class="content">
+      <h1>Privacy Policy</h1>
+      
+      <p>We respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Shopify application.</p>
+      
+      <div class="highlight">
+        <p>Please read this Privacy Policy carefully. By installing and using our app, you consent to the practices described in this policy. If you do not agree with the terms of this Privacy Policy, please do not install or use our app.</p>
+      </div>
+      
+      <h2 id="data-privacy" class="anchor-section">A. Data and User Privacy</h2>
+      
+      <h3>1. Compliance with Privacy Laws</h3>
+      <p>We recognize that it is our responsibility to ensure that any personal data we gather, store, process, or share complies with applicable privacy laws, including but not limited to the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and other applicable regional laws.</p>
+      
+      <h3>2. Transparency in Data Usage</h3>
+      <p>We believe in building trust through transparency. This privacy policy outlines how our app uses data and is accessible through our app listing in the Shopify App Store. We detail what information we collect, how we use it, who we share it with, and your rights regarding your data.</p>
+      
+      <h3>3. Data Management System</h3>
+      <p>Our app has implemented a comprehensive system for managing customer data that includes:</p>
+      <ul>
+        <li>Secure storage using industry-standard encryption techniques</li>
+        <li>Regular security audits and vulnerability testing</li>
+        <li>Processes for data erasure upon request in accordance with applicable data protection laws</li>
+        <li>Data minimization practices to collect only what is necessary for app functionality</li>
+      </ul>
+      
+      <h3>4. Marketing Consent and Opt-Out</h3>
+      <p>If our app engages in marketing or advertising activities that require personal data:</p>
+      <ul>
+        <li>We implement clear consent mechanisms before sending any marketing communications</li>
+        <li>Every marketing communication includes an easy-to-use opt-out mechanism</li>
+        <li>Your marketing preferences are stored and respected consistently across all channels</li>
+        <li>We honor all opt-out requests promptly and maintain records of consent</li>
+      </ul>
+      
+      <h3>5. Mandatory Webhooks for Data Deletion</h3>
+      <p>Our app subscribes to all mandatory Shopify webhooks to ensure we receive and promptly process any data deletion requests issued by merchants. This enables us to comply with data subject rights under various privacy regulations.</p>
+      
+      <h3>6. Customer Data Synchronization</h3>
+      <p>Any customer data collected by our app through Shopify hosted services, including Online Store and Point of Sale channels, is synchronized back to the Shopify admin to ensure merchants maintain complete access to their customer data as required by the Shopify API License and Terms of Use (section 2.3.17).</p>
+      
+      <h3>7. Export Control Classification</h3>
+      <p>Our app has an Export Control Classification Number (ECCN) of EAR99. If this classification changes, we will update this information accordingly and notify users of any compliance requirements.</p>
+      
+      <h3>8. Protected Customer Data</h3>
+      <p>For any protected customer data processed by our app:</p>
+      <ul>
+        <li>We have declared specific uses of protected customer data to Shopify and received approval for accessing such data based on our app's functionality</li>
+        <li>We have submitted detailed data protection information demonstrating compliance with protected customer data requirements</li>
+        <li>We participate in data protection reviews as required by Shopify to verify our data protection practices</li>
+        <li>We only access protected data necessary for delivering our app's core functionality</li>
+      </ul>
+      
+      <h2>Types of Data We Collect</h2>
+      
+      <p>Our app may collect the following types of data:</p>
+      
+      <h3>Store Data</h3>
+      <ul>
+        <li>Shop information (name, email, address, domain)</li>
+        <li>API access tokens</li>
+        <li>App configuration and settings</li>
+      </ul>
+      
+      <h3>Customer Data</h3>
+      <ul>
+        <li>Contact information (when provided by the merchant)</li>
+        <li>Order history and preferences</li>
+        <li>Shopping behavior and patterns</li>
+      </ul>
+      
+      <h3>Usage Data</h3>
+      <ul>
+        <li>App interaction statistics</li>
+        <li>Feature usage metrics</li>
+        <li>Performance analytics</li>
+      </ul>
+      
+      <h2>How We Use Your Information</h2>
+      
+      <p>We use the collected information for the following purposes:</p>
+      <ul>
+        <li>To provide, maintain, and improve our app functionality</li>
+        <li>To communicate with you about app updates, features, and support</li>
+        <li>To detect and prevent fraud, security breaches, and technical issues</li>
+        <li>To analyze usage patterns and optimize user experience</li>
+        <li>To comply with legal obligations</li>
+      </ul>
+      
+      <h2>Data Retention</h2>
+      
+      <p>We retain your personal data only for as long as necessary to fulfill the purposes for which we collected it, including satisfying any legal, accounting, or reporting requirements. When determining the appropriate retention period, we consider:</p>
+      <ul>
+        <li>The amount, nature, and sensitivity of the personal data</li>
+        <li>The potential risk of harm from unauthorized use or disclosure</li>
+        <li>The purposes for which we process the data</li>
+        <li>Whether we can achieve those purposes through other means</li>
+      </ul>
+      
+      <h2>Your Data Rights</h2>
+      
+      <p>Depending on your location, you may have certain rights regarding your personal data, including:</p>
+      <ul>
+        <li>The right to access your personal data</li>
+        <li>The right to correct inaccurate data</li>
+        <li>The right to request deletion of your data</li>
+        <li>The right to restrict or object to processing</li>
+        <li>The right to data portability</li>
+        <li>The right to withdraw consent</li>
+      </ul>
+      
+      <p>To exercise any of these rights, please contact us using the information provided in the "Contact Us" section below.</p>
+      
+      <h2>Data Security</h2>
+      
+      <p>We implement appropriate technical and organizational measures to protect your personal data against accidental or unlawful destruction, loss, alteration, unauthorized disclosure, or access. These measures include:</p>
+      <ul>
+        <li>Data encryption in transit and at rest</li>
+        <li>Regular security assessments</li>
+        <li>Access controls and authentication requirements</li>
+        <li>Employee training on data protection</li>
+        <li>Incident response plans</li>
+      </ul>
+      
+      <h2>Third-Party Service Providers</h2>
+      
+      <p>We may share your information with trusted third-party service providers who assist us in operating our app, conducting business, or servicing you. These third parties are contractually obligated to keep personal information confidential and use it only for the purposes for which we disclose it to them.</p>
+      
+      <h2>Changes to This Privacy Policy</h2>
+      
+      <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new Privacy Policy on our website and updating the "Last Updated" date at the top of this page.</p>
+      
+      <h2 id="contact">Contact Us</h2>
+      
+      <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:</p>
+      
+      <p>
+        Email: privacy@yourappname.com<br>
+        Address: Your Company Address<br>
+        Phone: Your Phone Number
+      </p>
+      
+      <p class="updated-date">This Privacy Policy was last updated on April 28, 2025.</p>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Your App Name. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
